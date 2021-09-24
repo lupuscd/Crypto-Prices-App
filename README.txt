@@ -1,0 +1,1 @@
+Crypto live prices app using the coingecko api and tkinter.

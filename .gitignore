@@ -1,0 +1,4 @@
+venv/
+packaging.txt
+__pycache__/
+api info.txt
