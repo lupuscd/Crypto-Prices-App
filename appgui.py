@@ -12,8 +12,6 @@ def scrollframe():
     scrollable_frame = Frame(my_canvas)
     scrollable_frame.configure(bg='black')
     scrollable_frame.columnconfigure(2, minsize=150)
-    #scrollable_frame.columnconfigure(3, minsize=50)
-    #scrollable_frame.columnconfigure(4, minsize=50)
     my_canvas.create_window((0,0), window=scrollable_frame, anchor=N+W)
 
     #header
@@ -237,7 +235,7 @@ coin_price_in_eur = cryptolist_eur()
 #Main Window
 root = Tk()
 root.title('Crypto Live Prices')
-root.iconbitmap(r'C:\Main\Programing\Projects\Crypto_Prices_App\btc.ico')
+#root.iconbitmap(r'C/Users/invictus/Programing/Projects/CryptoApp\btc.ico')
 root.minsize(1024,800)
 root.configure(bg='black')
 
